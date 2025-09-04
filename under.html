@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+     <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div style="display: flex;">
+            <img id="image" src="Name.jpeg" alt="Image" style="width:80px; height:auto; border-radius: 5%; border:2px solid black ">
+            <a id="name" href="#">
+                Avi Sharma
+            </a>
+            </div>
+
+            <br>
+        <div id="header">
+            <a href="#a">About</a>
+            <a href="#p">Projects</a>
+            <a href="#s">Skills</a>
+            <a href="#E">Education</a>
+            <a href="#c">Contact</a>
+        </div>
+        </div>
+    </header>
+    <section id="a">
+         <div id="about">
+
+        <h3>About :</h3>
+        <ul>
+         <li>
+            <b>NAME:</b> AVI SHARMA
+        </li>
+        <li>
+            <b>FATHER'S NAME:</b> PANKAJ KUMAR
+        </li>
+
+        <li>
+            <b>MOTHERS'S NAME:</b> PINKI SHARMA
+        </li>
+        <li>
+            <b>DOB:</b> 17/06/2007
+        </li>
+        <li>
+            <b>EMAIL:</b> avisharmaiaf@gmail.com
+        </li>
+        <li>
+            <b>SCHOOL:</b> AIR FORCE SCHOOL BAREILLY
+        </li>
+        <li>
+            <b>COLLEGE:</b> ABES ENGINEERING COLLEGE,GHAZIABAD
+        </li>
+
+        <li>
+            <b>GIT ID:</b> <a href ="https://github.com/avisharmaiaf07/ABES-FSD-AVI-328.git">Github Repo link</a>
+        </li>
+        </ul>
+    </div>
+    <hr>
+    </section>
+
+   
+   
+
+    <section id="s">
+    <div id="skill">
+        <h3>Skills :</h3>
+         <ul>
+            <li>
+                <b><a style="color: black; font-size:medium; font-family: 'Times New Roman', Times, serif;"> I know the basics of C, Java, and web development.</a></b>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <b><a style="color: black; font-size:medium; font-family: 'Times New Roman', Times, serif;" > I have good skills in video editing and graphic design. </a></b>
+            </li>
+        </ul>
+    </div>
+    <hr>
+    </section>
+
+    <section id="E">
+    <div id="Education">
+
+        <h3>Education : </h3>
+        <table border="1" align="center" bgcolor="FBF3C1" style="color: black;" >
+            <tr bgcolor="#C1856D" >
+                <th>Examination</th>
+                <th>Board/University</th>
+                <th>Year of Passing</th>
+                <th>Percentage/CGPA</th>
+            </tr>
+            <tr>
+                <td>B.Tech</td>
+                <td>Dr. A.P.J. Abdul Kalam Technical University</td>
+                <td>2028</td>
+                <td>8.59 CGPA (till 1st sem)</td>
+            </tr>
+            <tr>
+                <td>Intermediate</td>
+                <td>CBSE</td>
+                <td>2024</td>
+                <td>80.7%</td>
+            </tr>
+            <tr>
+                <td>High School</td>
+                <td>CBSE</td>
+                <td>2022</td>
+                <td>89%</td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    </section>
+
+    <section id="c">
+    <div class="contact">
+        <h3>
+            Contact :
+        </h3>
+
+    <form action="submit.php" method="post">
+        <div id="form">
+      <label for="name" >Name : </label>
+      <input style="margin-top: -6px; border: 2px solid black;" type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email" style="margin-left: 25px;">Email : </label>
+      <input style="margin-left: 25px; margin-top: -12px;" type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="message"  style="margin-left: 50px; ">Message :</label>
+      <textarea style="margin-left: 80px; margin-top: -12px;" id="message" name="message" rows="3" placeholder="Write your message here..." required></textarea>
+
+      <button type="submit">Send Message</button></div>
+    </form>
+
+    </div>
+    </section>
+    
+</body>
+</html>
